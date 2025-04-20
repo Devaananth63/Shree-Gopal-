@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400&family=Inknut+Antiqua:wght@600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+.logo-container {
+display: flex;
+align-items: center;
+height: 100%;
+padding-left: 250px;
+}
+
+.logo {
+height: 85px;
+align-items: center;
+margin-bottom: 5px;
+width: auto;
+}
+
+.head{
+  background-color: #0b4b80;
+  align-items: center;
+  height: 60px;
+}
+.H1 {
+font-family: 'Inknut Antiqua', serif;
+font-size: 50px;
+font-weight: 600;
+margin-bottom: 10px;
+color: white;
+margin-left: 15px;
+white-space: nowrap;
+}
+.baseheader{
+  background-color: #0b4b80;
+  height: 35px;
+  border: 2px solid white;
+}
+header {
+  background-color: #0b4b80;
+  color: white;
+  padding: 10px 40px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-container h1 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: bold;
+  white-space: nowrap;
+}
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin: 0;
+    padding: 5px;
+    align-content: center;
+  }
+  .nav-list li a {
+    text-decoration: none;
+    font-family: 'Inria Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  .nav-list li a:hover {
+    color: #ffdd57;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image
+  {
+  position: relative;
+  width: 100%;
+  height: auto;
+  }
+  .image_text{
+  position: absolute;
+  font-family: 'Inria Sans', sans-serif;
+  top: 26%;
+  left: 23%;
+  transform: translate(-50%, -50%);
+  color: #003b8b;
+  text-align: left;
+  padding: 30px 30px;
+  border-radius: 10px;
+  font-size: large;
+  width: 500px;
+  height: 170px;
+  backdrop-filter: blur(10px);
+  }
+  .image h2
+  {
+    font-family: 'Arbutus Slab', serif;
+    font-size: 32px;
+    position: absolute;
+    top: 9%;
+    left: 7%;
+    color: #003b8b;
+    z-index: 1;
+  }
+  
+.testimony p{
+  font-family: 'Inria Sans', sans-serif;
+  font-size: 18.5px;
+}
+.testimony h2{
+  font-family: 'Inria Sans', sans-serif;
+  font-size: 30px;
+  color: white;
+}
